@@ -1,7 +1,13 @@
 <?php
 
 try {
-	$conn = new mysqli('remotemysql.com', '46LiVaQ1Zg', 'Njv8VPOJVv','46LiVaQ1Zg');
+	$conn = 
+	$host = 'remotemysql.com';
+	$db   = '46LiVaQ1Zg';
+	$user = '46LiVaQ1Zg';
+	$pass = 'Njv8VPOJVv';
+	$charsett = 'utf8mb4';
+	
 } catch (Exception $e) {
 	echo $e->getMessage();
 }
